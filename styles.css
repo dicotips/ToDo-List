@@ -10,13 +10,13 @@ code {
 }
 
 .app {
-    background: #209cee;
+    background: #2720ee;
     padding: 30px;
     height: 100vh;
 }
 
 .todo-list {
-    background: #e8e8e8;
+    background: #383838;
     border-radius: 4px;
     padding: 5px;
     max-width: 400px;
@@ -38,7 +38,7 @@ code {
     width: 100%;
     box-sizing: border-box;
     border: 0;
-    border-radius: 4px;
+    border-radius: 2px;
     box-shadow: none;
     padding: 1rem;
     height: 2.25em;

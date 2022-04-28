@@ -21,7 +21,7 @@ function App() {
             isCompleted: false,
         }
     ]);
-    // const [value, setValue] = React.useState('');
+    
     const addTodo = text => {
         const newTodos = [...todos, { text:text, isCompleted: false }];
         setTodos(newTodos);
@@ -33,7 +33,6 @@ function App() {
         setTodos(temp);
     }
 
-    // map((element, index) => {...})
     return (
         <div className="app">
           <div className="todo-list">
